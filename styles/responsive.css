@@ -1,0 +1,94 @@
+/* media queries */
+
+
+
+/* media query for mobile device */
+
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    nav{
+        padding-bottom: 20px;
+    }
+
+    .nav-items-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items-container a{
+        margin-top: 20px;
+}
+
+    .login-btn{
+        width: 100%;
+}
+
+/* nav section ends here */
+
+
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .banner-text, .banner-img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner-text h1{
+        font-size: 30px;
+    }
+
+    .banner-text p{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .fa-brands{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .banner-img{
+        margin-top: 20px 0;
+    }
+
+    /* banner section ends here */
+
+
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* products section ends here */
+
+
+    .discount-section{
+        margin-top: 50px;
+    }
+
+    .discount-container{
+        flex-direction: column;
+    }
+
+    .discount-img, .discount-text{
+        width: 100%;
+    }
+
+    .discount-text{
+        text-align: center;
+        margin-top: 20PX;
+    }
+
+    .btn-discount{
+        width: 100%;
+        margin: 20PX 0;
+    }
+
+    /* discount section ends here */
+
+    
+}
